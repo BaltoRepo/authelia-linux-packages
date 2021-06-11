@@ -11,7 +11,7 @@ Install the tools: [FPM](https://fpm.readthedocs.io/en/latest/installing.html), 
 Set an environment variable for the Authelia version for which you wish to build packages. Then build it.
 
 ```
-export Authelia_VERSION=4.29.4
+export AUTHELIA_VERSION=4.29.4
 ./build.sh
 ```
 
@@ -45,7 +45,7 @@ export PUSH_TOKEN=your-balto-token
 As a shortcut for all the above, use `build-push.sh`:
 
 ```
-export Authelia_VERSION=3.2.1
+export AUTHELIA_VERSION=3.2.1
 ./build-push.sh
 ```
 
